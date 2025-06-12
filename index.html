@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Gimnasio Lorzas</h1>
+    <form>
+      <fieldset class="field1">
+        <legend>Informacion</legend>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed nisi
+          erat. Mauris tristique nulla turpis, id luctus tellus bibendum a. Nam
+          nec ultrices eros, a placerat dolor. Morbi mollis magna ac efficitur
+          gravida. Nullam aliquam vulputate metus sed sodales. Lorem ipsum dolor
+          sit amet, consectetur adipiscing elit. Vivamus facilisis massa dictum
+          ante efficitur, nec dignissim mi porta. Proin quis vulputate mi.
+          Vivamus fringilla iaculis mi eget auctor. Vestibulum sit amet
+          fringilla justo. Praesent hendrerit, erat consectetur scelerisque
+          efficitur, est mauris maximus nibh, eget aliquam velit ipsum at odio.
+          Nam sed congue velit, sed aliquam libero. Suspendisse et risus sed
+          erat malesuada lobortis. In cursus lectus posuere ex molestie, id
+          eleifend nisi ornare. In eu tristique orci. Vestibulum non nulla
+          aliquet, laoreet magna a, tempus mauris.
+        </p>
+      </fieldset>
+    </form>
+    <form>
+      <fieldset class="field2">
+        <legend>Quieres recibir mas informacio:</legend>
+        <h2>Rellena el formulario</h2>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <label for="comentarios">Que quieres saber:</label>
+        <textarea name="comentarios" id="comentarios" maxlength="150">
+        </textarea>
+        <button type="submit">Enviar formulario</button>
+      </fieldset>
+    </form>
+    <form>
+      <fieldset class="field3">
+        <legend>Registro</legend>
+        <h3>¿Te quieres registrar?</h3>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" required />
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" name="apellidos" id="apellidos" required />
+
+        <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+        <input
+          type="date"
+          name="fecha-nacimiento"
+          id="fecha-nacimiento"
+          required
+        />
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" name="telefono" id="telefono" />
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+
+        <label>Modalidad:</label>
+        <label>
+          <input type="radio" name="modalidad" value="mañana" /> De 7:00 a 13:00
+        </label>
+        <label>
+          <input type="radio" name="modalidad" value="semana" /> Todo el día (no
+          fin de semana)
+        </label>
+        <label>
+          <input type="radio" name="modalidad" value="completo" /> Todos los
+          días (incluido fin de semana)
+        </label>
+
+        <button type="submit">Registrarse</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
